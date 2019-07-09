@@ -8,8 +8,6 @@ import SignUp from './components/auth/SignUp'
 import CreateChat from './components/chat/CreateChat'
 import Dashboard from './components/dashboard/Dashboard'
 import Chat from './components/chat/Chat'
-import EosTest from './components/EosTest'
-import EosKnights from './components/EosKnights'
 import Profile from './components/profile/Profile'
 
 
@@ -24,9 +22,7 @@ function App() {
           <Route path='/signin' component={SignIn} />
           <Route path='/signup' component={SignUp} />
           <Route path='/createchat' component={CreateChat} />
-          <Route path='/test' component={EosTest} />
           <Route path='/profile' component={Profile} />
-          <Route path='/eosKnights' component={EosKnights} />
         </Switch>
       </div>
     </BrowserRouter>
