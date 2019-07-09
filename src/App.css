@@ -1,0 +1,99 @@
+@media only screen and (max-width: 600px) {
+  .chat-textarea {
+    width: 80%;
+  }
+  .messages {
+    margin-left: 4px;
+  }
+  .message {
+    max-width: 50vw;
+  }
+}
+@media only screen and (min-width: 601px){
+  .chat-textarea {
+    width: 50%;
+  }
+  .messages {
+    margin: 0 20%;
+    margin-top: 5px;
+  }
+  .messageInput {
+    margin: 0 20%;
+  }
+  .message {
+    max-width: 30vw;
+  }
+}
+
+.messageInput {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: inline-block;
+}
+
+.chat-textarea {
+  height: 30px;
+  border: none;
+  resize: none;
+  margin-left: 10px;
+  border-radius: 3px;
+  padding-left: 5px;
+  padding-top: 6px;
+  padding-bottom: 3px;
+}
+
+.chat-textarea:hover {
+  border: none;
+  outline: none;
+}
+
+.chat-textarea::placeholder {
+  color: black;
+}
+
+.messageInput-btnOuter {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.messageInput-btnOuter:hover {
+  cursor: pointer;
+}
+
+
+.messages {
+  max-height: 100%;
+  overflow-y: scroll;
+}
+
+
+.messageOuter {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+
+.message {
+  display: table;
+  border-radius: 3px;
+  padding: 8px;
+  margin-right: 10px;
+  text-align: left;
+  
+}
+
+
+
+.author {
+  font-size: 11px;
+}
+
+.addFriendButton:hover {
+  cursor: pointer;
+}
+
+
+.modalOptions {
+  height: 60%;
+}
